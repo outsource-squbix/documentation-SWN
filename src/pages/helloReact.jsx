@@ -23,7 +23,7 @@ function Hello() {
         <h1>Account Register & DID Creation</h1>
         <p>Always make sure that you are using the latest version of the App to avoid any issue.</p>
         <h2>Step 1 :(Sign Up)</h2>
-        <p>Open SSID app and click on <b>Sign Up</b></p>
+        <p>Open SSID app and click on <b>Sign Up.</b></p>
     </div>
     <br />
     <div class="col-6">
@@ -35,9 +35,9 @@ function Hello() {
  <div class="row">
     <div class="col-6">
         <h2>Step 2:</h2>
-        <p>Fill in the form with all valid personal details and click on <b>Sign up my Account</b></p>
+        <p>Fill in the form with all valid personal details and click on <b>Sign up my Account.</b></p>
         <p>or</p>
-        <p>You ac also choose <b>Sign up with Phone Number</b></p>
+        <p>You ac also choose <b>Sign up with Phone Number.</b></p>
     </div>
     <br />
     <div class="col-6,ml-10px">
@@ -49,7 +49,7 @@ function Hello() {
       <div class="row">
     <div class="col-6">
         <h2>Step 3:</h2>
-        <p>verify your Email/Mobile Number by entering the recived OTP and click on <b>Submit</b>.</p>
+        <p>verify your Email/Mobile Number by entering the recived OTP and click on <b>Submit.</b></p>
     </div>
     <br />
     <div class="col-6">
@@ -61,7 +61,7 @@ function Hello() {
       <div class="row">
     <div class="col-6">
         <h2>Step 4 :(Sign In)</h2>
-        <p>Now enter login credentials and click on <b>Sign in My Account.</b> <b>Sign Up</b></p>
+        <p>Now enter login credentials and click on <b>Sign in My Account.</b> <b>Sign Up.</b></p>
     </div>
     <br />
     <div class="col-6">
@@ -74,7 +74,7 @@ function Hello() {
     <div class="col-6">
         
         <h2>Step 5 :(KYC)</h2>
-        <p>To Submit your <b>KYC</b>click on <b>My Profile</b></p>
+        <p>To Submit your <b>KYC</b>click on <b>My Profile.</b></p>
     </div>
     <br />
     <div class="col-6">
@@ -88,7 +88,7 @@ function Hello() {
         <h2>Step 6:</h2>
         <p>Click on <b>Submit KYC,</b>fill the form and upload all required documents, the submit your KYC requrest.</p>
         <p>You will get a pop up notification that your KYC submitted Successfully.</p>
-        <p>You can wait for KYC acceptance by clicking on <b>OK</b> </p>
+        <p>You can wait for KYC acceptance by clicking on <b>OK.</b> </p>
     </div>
     <br />
     <div class="col-6">
@@ -114,12 +114,12 @@ function Hello() {
       <div class="row">
     <div class="col-6">
         <h2>Step 8:(Password And Biometrics Setup)</h2>
-        <p>Set up <b>Authentication System </b>for extra security by clicking <br />
+        <p>Set up <b>Authentication System </b>for extra security by clicking .<br />
         on Biometrics or Password.</p>
         <div class="admonition admonition-note alert alert--secondary">
             <div class="admonition-content">
                 <p>This password is only to unlock your wallet inside the app <br />
-                (This in not related to Login Password)</p>
+                (This in not related to Login Password).</p>
             </div>
         </div>
         <div class="admonition admonition-note alert alert--secondary">
@@ -140,7 +140,7 @@ function Hello() {
  <div class="row">
     <div class="col-6">
         <h2>Step 9:</h2>
-        <p>Now save your 24 Mnemonics (seed words)somewhere safeby <br />copying them</p>
+        <p>Now save your 24 Mnemonics (seed words)somewhere safeby <br />copying them.</p>
         <div class="admonition admonition-note alert alert--secondary" class="border 2px solid bg-black">
             <div class="admonition-content">
                 <p>This is the most important step.Your 24 memonics are <br />
@@ -158,7 +158,7 @@ function Hello() {
  <div class="row">
     <div class="col-6">
         <h2>Step 10:</h2>
-        <p>Enter a DID as per your choice and then click on <b>Submit</b></p>
+        <p>Enter a DID as per your choice and then click on <b>Submit.</b></p>
     </div>
     <br />
     <div class="col-6,ml-10px">

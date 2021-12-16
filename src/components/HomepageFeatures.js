@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
-  {
+  { 
     title: 'Powered by Markdown',
     Svg: require('../../static/img/11.svg').default,
     description: (

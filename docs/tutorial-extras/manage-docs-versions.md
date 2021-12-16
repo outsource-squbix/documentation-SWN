@@ -2,54 +2,25 @@
 sidebar_position: 1
 ---
 
-# Manage Docs Versions
+# Connection Establishment
 
-Docusaurus can manage multiple versions of your docs.
+**Step 1:**  
+Click the `wallet` Icon botton.Make sure that you are currently seeing wallet screen like the image file given below.  
+![Flowers](./Imgmd/1.jpeg)  
 
-## Create a docs version
+**Step 2:**  
+a. Click the `SSID` icon.  
+![Flowers](./Imgmd/2.jpeg)  
 
-Release a version 1.0 of your project:
+b. Now you can see a list of public did names.if you want to connect to the `EXPLORER` did,then CLICK `CONNECT`.  
+![Flowers](./Imgmd/3.jpeg)  
 
-```bash
-npm run docusaurus docs:version 1.0
-```
+c. The link name `CONNECT` will change to `CONNECTED` which means the connection between EXPLORER public did &  
+pairwise server is successfully established.  
+![Flowers](./Imgmd/4.jpeg)  
 
-The `docs` folder is copied into `versioned_docs/version-1.0` and `versions.json` is created.
-
-Your docs now have 2 versions:
-
-- `1.0` at `http://localhost:3000/docs/` for the version 1.0 docs
-- `current` at `http://localhost:3000/docs/next/` for the **upcoming, unreleased docs**
-
-## Add a Version Dropdown
-
-To navigate seamlessly across versions, add a version dropdown.
-
-Modify the `docusaurus.config.js` file:
-
-```js title="docusaurus.config.js"
-module.exports = {
-  themeConfig: {
-    navbar: {
-      items: [
-        // highlight-start
-        {
-          type: 'docsVersionDropdown',
-        },
-        // highlight-end
-      ],
-    },
-  },
-};
-```
-
-The docs version dropdown appears in your navbar:
-
-![Docs Version Dropdown](/img/tutorial/docsVersionDropdown.png)
-
-## Update an existing version
-
-It is possible to edit versioned docs in their respective folder:
-
-- `versioned_docs/version-1.0/hello.md` updates `http://localhost:3000/docs/hello`
-- `docs/hello.md` updates `http://localhost:3000/docs/next/hello`
+:::caution
+1.Once you establish a connection between a public did & pairwise server,there is no need to connect again.if you uninstall & install  
+the app or update the app or log out,then it will be automatically disconnected & you have to establish the connection again.  
+2.Pairwise login is impossible without establishing a connectin between a public did & pairwise server.
+::: 

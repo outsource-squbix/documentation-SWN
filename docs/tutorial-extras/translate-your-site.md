@@ -2,87 +2,27 @@
 sidebar_position: 2
 ---
 
-# Translate your site
+# Pairwise Login
 
-Let's translate `docs/intro.md` to French.
+**Step 3:**  
+a.For pairwise login to EXPLORE , make sure that the public did EXPLORER is connected to pairwise server.  
+![Flowers](./Imgmd/5.jpeg)  
+b.Do not log out close the ssid app.Navigate to the EXPLORER url https://v3eplorer.metabit.exchage/dashboard & click the KEY icon.  
 
-## Configure i18n
+![Flowers](./Imgmd/6.jpeg)  
 
-Modify `docusaurus.config.js` to add support for the `fr` locale:
+c.Enter your did into the input field in this format didi:ssid:test@did& click the look up button.  
+![Flowers](./Imgmd/7.jpeg)  
+d. A pop up alert will be displayed your ssid app screen,seeking your permission to allow the login request from EXPLORER. You can allow or deny the request.  
+![Flowers](./Imgmd/8.jpeg)  
 
-```js title="docusaurus.config.js"
-module.exports = {
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'fr'],
-  },
-};
-```
+e.if you allow ,then the explorer will directly connect to ssid app through peer-to-peer protocol through webrtc.Then you will be able to a see sidebar where you can check your account details & transaction history.  
+![Flowers](./Imgmd/9.jpeg)  
 
-## Translate a doc
-
-Copy the `docs/intro.md` file to the `i18n/fr` folder:
-
-```bash
-mkdir -p i18n/fr/docusaurus-plugin-content-docs/current/
-
-cp docs/intro.md i18n/fr/docusaurus-plugin-content-docs/current/intro.md
-```
-
-Translate `i18n/fr/docusaurus-plugin-content-docs/current/intro.md` in French.
-
-## Start your localized site
-
-Start your site on the French locale:
-
-```bash
-npm run start -- --locale fr
-```
-
-Your localized site is accessible at `http://localhost:3000/fr/` and the `Getting Started` page is translated.
+f. If you want to disconnected the connection between ssid app & explorer, click this disconnect icon of explorer web app.  
+![Flowers](./Imgmd/10.jpeg)  
 
 :::caution
-
-In development, you can only use one locale at a same time.
-
+NOTE: For pairwise login to Admin tool,you can follow these same steps.  
+URL of admin tool: https://ssid-admin-panel.web.app/login
 :::
-
-## Add a Locale Dropdown
-
-To navigate seamlessly across languages, add a locale dropdown.
-
-Modify the `docusaurus.config.js` file:
-
-```js title="docusaurus.config.js"
-module.exports = {
-  themeConfig: {
-    navbar: {
-      items: [
-        // highlight-start
-        {
-          type: 'localeDropdown',
-        },
-        // highlight-end
-      ],
-    },
-  },
-};
-```
-
-The locale dropdown now appears in your navbar:
-
-![Locale Dropdown](/img/tutorial/localeDropdown.png)
-
-## Build your localized site
-
-Build your site for a specific locale:
-
-```bash
-npm run build -- --locale fr
-```
-
-Or build your site to include all the locales at once:
-
-```bash
-npm run build
-```
