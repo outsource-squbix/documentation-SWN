@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# MetaMUI Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+ **Account Register & DID Creation**.
 
 ## Getting Started
 

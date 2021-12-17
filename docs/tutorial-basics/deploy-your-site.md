@@ -2,30 +2,40 @@
 sidebar_position: 5
 ---
 
-# Deploy your site
+# Password And Biometrics Setup
+**Step 8:**  
+Set up ***Authentication System*** for extra security by clicking on Biometrics or Password.  
+``This password is only to unlock your wallet inside the app   
+(This is not related to Login Password).``
 
-Docusaurus is a **static-site-generator** (also called **[Jamstack](https://jamstack.org/)**).
 
-It builds your site as simple **static HTML, JavaScript and CSS files**.
+`Biometrics is optional, those who wants to use Face Id or  
+Fingerprint then opt for that option. It will also ask for a  
+password, if Biometrics unlock fails then you can use the  
+password.`  
 
-## Build your site
+![Flowers](./Imgmd/img8.jpeg)  
 
-Build your site **for production**:
+**Step 9:**  
+Now save your 24 Mnemonics (seed words)somewhere safeby `copying them`.  
+:::caution
+This is the most important step.Your 24 memonics are   
+used to restore your DID if you log out or Uninstall the app.
+:::  
 
-```bash
-npm run build
-```
+![Flowers](./Imgmd/img9.jpeg)  
 
-The static files are generated in the `build` folder.
+**Step 10:**  
+Enter a DID as per your choice and then Click on `Submit`.  
+![Flowers](./Imgmd/img10.jpeg)  
 
-## Deploy your site
+**Step 11:**  
+Verify your details in this screen and click on `Confirm` to proceed further.  
 
-Test your production build locally:
+![Flowers](./Imgmd/img11.jpeg)  
 
-```bash
-npm run serve
-```
+**Step 12:**  
+After following on screen information you will able to generate your VC successfully.  
+Then can see your generated Wallet in `Wallet` tab.  
 
-The `build` folder is now served at `http://localhost:3000/`.
-
-You can now deploy the `build` folder **almost anywhere** easily, **for free** or very small cost (read the **[Deployment Guide](https://docusaurus.io/docs/deployment)**).
+![Flowers](./Imgmd/img12.jpeg)  
