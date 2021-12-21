@@ -2,33 +2,16 @@
 sidebar_position: 3
 ---
 
-# Create a Blog Post
+# KYC
+  **Step 5:**
+To Submit your`KYC` click on  `My Profile`.
 
-Docusaurus creates a **page for each blog post**, but also a **blog index page**, a **tag system**, an **RSS** feed...
+![Flowers](./Imgmd/img5.jpeg)  
 
-## Create your first Post
+**Step 6:**  
+Click on `Submit KYC` fill the form and upload all required documents, the submit your KYC requrest.
+You will get a pop up notification that your KYC submitted Successfully.
+ You can wait for KYC acceptance by clicking on `OK`.
 
-Create a file at `blog/2021-02-28-greetings.md`:
 
-```md title="blog/2021-02-28-greetings.md"
----
-slug: greetings
-title: Greetings!
-authors:
-  - name: Joel Marcey
-    title: Co-creator of Docusaurus 1
-    url: https://github.com/JoelMarcey
-    image_url: https://github.com/JoelMarcey.png
-  - name: Sébastien Lorber
-    title: Docusaurus maintainer
-    url: https://sebastienlorber.com
-    image_url: https://github.com/slorber.png
-tags: [greetings]
----
-
-Congratulations, you have made your first post!
-
-Feel free to play around and edit this post as much you like.
-```
-
-A new blog post is now available at `http://localhost:3000/blog/greetings`.
+![Flowers](./Imgmd/img6.jpeg)
