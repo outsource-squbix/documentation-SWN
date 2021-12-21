@@ -4,24 +4,25 @@ import styles from './HomepageFeatures.module.css';
 
 const FeatureList = [
   { 
-    title: 'MetaMUI',
-    Svg: require('../../static/img/11.svg').default,
-    
-  },
-  {
     title: 'SSID',
-    Svg: require('../../static/img/22.svg').default,
-    
-    
+    Svg: require('../../static/img/bis.svg').default,
+     desc:'Self-Sovereign Identity. '
   },
   {
     title: 'Pairwise',
-    Svg: require('../../static/img/33.svg').default,
+    Svg: require('../../static/img/conn.svg').default,
+    desc:'connection to Admin.'
     
   },
+  {
+    title: 'Wallet',
+    Svg: require('../../static/img/wallet.svg').default,
+    desc:'create your wallet and you can Restore it.'
+  },
+  
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Svg, title, desc}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
@@ -29,7 +30,7 @@ function Feature({Svg, title, description}) {
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
-        <p>{description}</p>
+        <p>{desc}</p>
       </div>
     </div>
   );

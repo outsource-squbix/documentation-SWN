@@ -55,6 +55,12 @@ const config = {
             position: 'left',
             label: 'Welcome',
           },
+          {
+            href:'https://swn-ssid-admin-panel-dev.web.app',
+            docId: 'intro',
+            position: 'left',
+            label: 'Admin panel',
+          },
           
           // {to: '/blog', label: 'Wallet Restore', position: 'left'},
           // {
@@ -71,7 +77,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Intro',
                 to: '/docs/intro',
               },
             ],
@@ -80,25 +86,22 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Admin Panel',
+                href: 'https://swn-ssid-admin-panel-dev.web.app',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Wallet',
+                 to:'/docs/Restore'
               },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
+              
             ],
           },
           {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Welcome',
+                to: '/intro',
               },
               {
                 label: 'GitHub',
@@ -107,7 +110,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} MetaMUI SSID.`,
       },
       prism: {
         theme: lightCodeTheme,
